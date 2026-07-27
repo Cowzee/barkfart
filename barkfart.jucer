@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="lqsG1m" name="barkfart" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="wPRyzx" name="barkfart">
+    <GROUP id="{E5CD91C7-FD01-C74D-30C4-62AD2CFDED0E}" name="Source">
+      <FILE id="LxDdbt" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="clTgIg" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="Fm6Ri6" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES/>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2026 targetFolder="Builds/VisualStudio2026">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="barkfart"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="barkfart"/>
+      </CONFIGURATIONS>
+    </VS2026>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
